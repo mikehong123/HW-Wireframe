@@ -1,0 +1,66 @@
+
+body{
+	background-color:#777;
+}
+header{
+	background-color:#ebebeb;
+	padding-bottom:140px;
+	text-align: center;
+}
+h1.bio{
+	color:black;
+	text-align: center;
+	background-color:black;
+	color: white;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-family: 'Helvetica Neue'
+	font-size: 18px;
+}
+
+section{
+	float:left;
+	width:844px;
+	background-color:#ebebeb;
+	margin-top:0px;
+	margin-right:0px;
+	height:340px;
+	font-family: 'Helvetica Neue'
+	font-size: 18px;
+}
+
+article.one{
+	margin-left:25px;
+}
+
+h2{
+	margin-left:25px;
+}
+
+img.image{
+	float:left;
+	margin-left:25px;
+	margin-right:0px;
+}
+
+p{
+	text-align: center;
+}
+
+aside{
+	float:right;
+	width:400px;
+	background-color:#ebebeb;
+	height:340px;
+	margin-left:0px;
+	font-family: 'Helvetica Neue'
+	font-size: 18px;
+}
+
+footer{
+	margin-top:1000px;
+	background-color:#777;
+	padding-top:1000px;
+}
