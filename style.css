@@ -1,66 +1,97 @@
 
+
 body{
 	background-color:#777;
+	font-family:'Helvetica';
+	font-size: 18px;
+	color: #777;
 }
 header{
 	background-color:#ebebeb;
-	padding-bottom:140px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 40px;
 	text-align: center;
 }
-h1.bio{
-	color:black;
-	text-align: center;
-	background-color:black;
-	color: white;
-	padding-top:15px;
-	padding-bottom:15px;
-	margin-top:0px;
-	margin-bottom:0px;
-	font-family: 'Helvetica Neue'
-	font-size: 18px;
-}
-
-section{
-	float:left;
-	width:844px;
+nav {
 	background-color:#ebebeb;
-	margin-top:0px;
-	margin-right:0px;
-	height:340px;
-	font-family: 'Helvetica Neue'
-	font-size: 18px;
-}
-
-article.one{
-	margin-left:25px;
-}
-
-h2{
-	margin-left:25px;
-}
-
-img.image{
-	float:left;
-	margin-left:25px;
-	margin-right:0px;
-}
-
-p{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding:40px;
 	text-align: center;
+}
+
+section.one {
+	float:left;
+	width: 40%;
+	margin-left: 50px;
+	background-color:#ebebeb;
+	height: 250px;
+	text-align: center;
+	padding: 40px;
+	margin-bottom: 20px;
+}
+
+article.two {
+	float: left;
+	background-color: #777;
+	padding: 30px;
+	height: 150px;
+	width: 400px;
+	text-align: center;
+	color: #ebebeb;
+}
+
+h1 {
+	float: left;
+	background-color: #ebebeb;
+	padding: 20px;
+	height: 15px;
+	width: 350px;
+	text-align: center;
+	color: #777;
+	margin-bottom:0px;
+}
+
+p {
+	float: left;
+	background-color: #ebebeb;
+	padding: 20px;
+	height: 15px;
+	width: 350px;
+	text-align: center;
+	margin-top: 8px;
+	color: #777;
 }
 
 aside{
 	float:right;
-	width:400px;
+	width: 35%;
 	background-color:#ebebeb;
-	height:340px;
-	margin-left:0px;
-	font-family: 'Helvetica Neue'
-	font-size: 18px;
+	margin-right: 50px;
+	height: 250px;
+	text-align: center;
+	padding: 40px;
+	margin-top: 0px;
+
 }
 
 footer{
-	margin-top:1000px;
-	background-color:#777;
-	padding-top:1000px;
+	clear: both;
+	padding: 40px;
+	background-color: #ebebeb;
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
 }
